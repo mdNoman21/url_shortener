@@ -9,10 +9,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/akhil/fiber-url-shortener/routes"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/joho/godotenv"
+	"github.com/mdNoman21/url-redis-yt/routes"
 )
 
 // setup two routes, one for shortening the url
